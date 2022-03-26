@@ -4,13 +4,13 @@ dependencies {
 }
 
 android {
-  // compileSdkVersion 32
-  // buildToolsVersion "32.0.0"
-  // ndkVersion ""
+  compileSdkVersion 32         // Disse linier
+  buildToolsVersion "32.0.0"   // var udmarkeret
+  ndkVersion ""                // og gav fejl at SDK var 29
 
   defaultConfig {
     minSdkVersion 17
-    // targetSdkVersion 32
+    targetSdkVersion 32        //  men skulle være minimum 31
 
     // Version Information
     versionCode 1
