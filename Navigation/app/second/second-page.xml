@@ -1,0 +1,19 @@
+<Page navigatingTo="onNavigatingTo" xmlns="http://schemas.nativescript.org/tns.xsd">
+    
+    <ActionBar style="background-color:#673489">
+        <Label text="Navigation" style="font-size:20px" />
+    </ActionBar>
+
+    <StackLayout style="background-color:#876799">
+       <Label text="Second Page" style="background-color:#aa3489" class="h1 text-center"/>
+       <StackLayout orientation="horizontal" style="background-color:#676789">
+          <Label text="From Main" style="font-size:20px; width:50%; margin:20px"/>
+          <Label id="lblFromMain" text="Here it comes.." style="font-size:20px; width:50%; margin:20px"/>       
+       </StackLayout>
+       <StackLayout orientation="horizontal" style="background-color:#678989">
+          <Label text="To Main" style="font-size:20px; width:50%; margin:20px"/>
+          <TextField id="txtWriteToMain" hint="Skriv her...." style="font-size:20px; width:50%"/>       
+       </StackLayout>
+       <Button id="btnGoBack" text="Go Back" tap="onNavigateBack" style="background-color:#cc3422"/> 
+    </StackLayout>
+</Page>

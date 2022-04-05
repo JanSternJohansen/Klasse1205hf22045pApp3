@@ -7,6 +7,6 @@
     <StackLayout>
         <Button id="btnOk" text="OK" tap="onTap" class="-primary"/>
         <Label id="lblMessage" text="Her kommer det...." class="h2 text-center"/>
-        <TextField id="txtWrite" hint="Skriv noget her" style="font-size:20px"/>
+        <TextField id="txtWrite" hint="Skriv noget her" style="font-size:20px"/>        
     </StackLayout>
 </Page>
