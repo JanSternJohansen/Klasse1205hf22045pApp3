@@ -33,7 +33,7 @@ export function onNavigateToSecond(args: EventData)
      moduleName: "second/second-page",
      context:
      {
-       datadata: myData,
+       data: myData,
        param1: "Hej fra Jan"
      }
    }
