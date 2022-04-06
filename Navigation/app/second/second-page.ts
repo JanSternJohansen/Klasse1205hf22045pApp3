@@ -10,6 +10,9 @@ export function onNavigatingTo(args: NavigatedData)
     data = <MyData>page.navigationContext.data;
     var lblFromMain: Label = page.getViewById("lblFromMain");
     lblFromMain.text = data.forward;
+
+    var p: string = page.navigationContext.param1;
+    console.log(p);  
 }
 
 export function onNavigateBack(args: EventData)
